@@ -1,0 +1,72 @@
+*{
+    margin-top: 25px;
+}
+
+
+
+/* header start from here */
+header .row{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+header .row .col-lg-6{
+    padding: 100px 60px 0 70px;
+}
+header .row p{
+    margin-top: 20px;
+}
+header .row button{
+    margin-top: 20px;
+}
+
+
+
+/* section-1 start from here */
+.sec-1-bacground{
+    margin-top: 100px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+section-1 .row button{
+    margin: 5px;
+    width: 210px;
+    height: 50px;
+}
+.pad2-section-1{
+    margin-top: 150px;
+}
+.sec-1-center{
+    padding-top: 40px;
+}
+.sec-1-pad{
+    padding-top: 10px;
+}
+.sec-1-item{
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+/* footer start from here */
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+footer h1{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 50px;
+}
+footer a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+footer .container .row{
+    margin-top: 40px;
+}

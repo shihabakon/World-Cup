@@ -1,0 +1,88 @@
+
+/* header start from here */
+header{
+    margin-top: 50px;
+}
+header .row{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+header .row .col-lg-6{
+    padding: 100px 60px 0 70px;
+}
+header .row p{
+    margin-top: 20px;
+}
+header .row button{
+    margin-top: 20px;
+}
+
+
+
+/* section-1 start from here */
+.sec-1-bacground{
+    margin-top: 100px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+section-1 .row button{
+    margin: 5px;
+    width: 210px;
+    height: 50px;
+}
+.pad2-section-1{
+    margin-top: 100px;
+}
+.sec-1-item{
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+
+.pad2-section-1 .row button{
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    margin: 10px 0 0 0;
+}
+.pad2-section-1 .row button p{
+    margin-top: -4px;
+}
+.sec-1-para{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.sec-1-item-pad{
+    margin-left: 10px;
+}
+.sec-img-1{
+    margin-right: 5px;
+}
+.sec-img-2{
+    margin: 10px 5px 10px 15px;
+}
+
+
+
+/* footer link hear */
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+footer h1{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 50px;
+}
+footer a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+footer .container .row{
+    margin-top: 40px;
+}

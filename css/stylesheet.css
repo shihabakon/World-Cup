@@ -1,0 +1,319 @@
+
+/* css code for Desktop (1200px - mix) */
+@media screen and (min-width: 1200px){
+    .lg-none{
+        display: none;
+    }
+
+    /* Desktop header from here */
+    header .row{
+        border-radius: 20px;
+    }
+    .header-pad{
+        height: 424px;
+        padding-left: 123px;
+        padding-top: 111px;
+    }
+    .header-pad h1{
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .header-h1-2{
+        display: none;
+    }
+    .header-para-1{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .header-para-2{
+        display: none;
+    }
+    .header-pad button{
+        margin-top: 10px;
+    }
+
+    /* Desktop section-1 start from here */
+    .sec-1-button{
+        background-color: black;
+        margin-top: 100px;
+        border-radius: 10px;
+        width: 104%;
+    }
+    .button-mar{
+        width: 80%;
+        height: 50px;
+    }
+    .button-sm{
+        width: 80%;
+        height: 50px;
+    }
+    
+    .item-mar{
+        margin-top: 80px;
+    }
+    .item-pad{
+        margin-top: 20px;
+    }
+
+    /* Desktop footer start from here */
+    footer{
+        margin-top: 128px;
+        height: 444px;
+    }
+    footer h1{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: 130px;
+        margin-bottom: 50px;
+    }
+    footer p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 20px;
+    }
+    .footer-pad{
+        margin-bottom: 50px;
+    }
+}
+
+
+
+/* css code for Tablet (768px - 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .mg-none{
+        display: none;
+    }
+
+    /* Tablet header from here */
+    header .row{
+        border-radius: 20px;
+    }
+    .header-pad{
+        padding-top: 61px;
+        padding-left: 50px;
+        height: 276px;
+    }
+    .header-pad h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .header-h1-2{
+        display: none;
+    }
+    .header-para-1{
+        display: none;
+    }
+    .header-para-2{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /* Tablet section-1 start from here */
+    .mg-button{
+        margin-top: 70px;
+    }
+    .button-mg{
+        border-radius: 10px;
+        width: 85%;
+        border: 1px solid rgba(0, 0, 0, 0.055);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        height: 55px;
+    }
+    .item-mar{
+        margin-top: 10px;
+    }
+    .item-pad{
+        margin-top: 20px;
+    }
+    .sec-img-0{
+        width: 357px;
+        height: 200.24px;
+    }
+    .md-button-only{
+        margin-top: 50px;
+        width: 131px;
+    }
+
+    /* Tablet footer start from here */
+    footer{
+        margin-top: 69.79px;
+        height: 345px;
+    }
+    footer h1{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+    footer p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 50px;
+        margin: 30px;
+    }
+    .footer-pad{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+/* css code for Smartphone (min - 767px) */
+@media screen and (max-width: 767px){
+    .sm-none{
+        display: none;
+    }
+
+    /* Smartphone header from here */
+    .container{
+        width: 90%;
+    }
+    header{
+        text-align: center;
+    }
+    header .row{
+        border-radius: 12px;
+    }
+    .header-h1-1{
+        display: none;
+    }
+    .header-pad h1{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        padding-top: 30px;
+    }
+    .header-para-1{
+        display: none;
+    }
+    .header-para-2{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 5px;
+    }
+    header button{
+        margin: 10px 0 10px 0;
+    }
+    header img{
+        width: 233px;
+        height: 245px;
+        padding-left: 20px;
+    }
+
+    /* Smartphone section-1 start from here */
+    .sec-1-button{
+        margin-top: 24px;
+    }
+    .button-sm{
+        height: 45px;
+        width: 40%;
+        border: 1px solid rgba(0, 0, 0, 0.055);
+    }
+    .button-mar{
+        height: 45px;
+        border: 1px solid rgba(0, 0, 0, 0.055);
+    }
+    .item-mar{
+        margin-top: 8px;
+    }
+    .item-pad{
+        margin-top: 16px;
+    }
+
+    /* Smartphone footer start from here */
+    footer{
+        margin-top: 24.31px;
+        height: 412px;
+    }
+    .footer-pad{
+        margin-bottom: 24px;
+    }
+    footer h1{
+        margin-top: 24px;
+        margin-bottom: 24px;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+    }
+    footer p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 50px;
+        margin: 60px;
+    }
+}
+
+
+/* General Code attach here */
+
+/* header */
+header .row{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+}
+
+/* Section-1 */
+.button-mar{
+    margin: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.button-sm{
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.item-button{
+    border: 1px solid black;
+    width: 35%;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+.item-para-1{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+.sec-img-1{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.sec-img-2{
+    margin: 10px 10px 10px 15px;
+}
+.item-border{
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+}
+
+/* footer start here */
+footer{
+    background-color: black;
+}
+.footer-pad{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer h1{
+    color: white;
+}
+footer p{
+    color: white;
+    display: inline;
+}
+
+
